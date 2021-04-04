@@ -1,5 +1,5 @@
-import {createStackNavigator} from 'react-navigation-stack'
-import {createAppContainer} from 'react-navigation'
+import {createStackNavigator} from 'react-native-gesture-handler/sta'
+import {createAppContainer} from '@react-navigation/native'
 import About from '../screens/about'
 import Home from '../screens/home'
 

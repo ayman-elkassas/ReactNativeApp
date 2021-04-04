@@ -4,6 +4,7 @@ import SV from "./components/2-ScrollView/SV";
 import FL from "./components/3-FlatList/FL";
 import TC from "./components/4-TouchComponents/TC";
 import Home from "./screens/home";
+import Navigator from './routes/homeStack'
 
 export default function App() {
 
@@ -12,6 +13,6 @@ export default function App() {
     // <SV/>
     // <FL/>
     // <TC/>
-    <Home/>
+    <Navigator/>
   );
 }
